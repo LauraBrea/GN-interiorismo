@@ -352,6 +352,7 @@ iframe {
     width: 100%;
     height: 100%;
     z-index: 2;
+    object-fit: cover;
     }
     
     .sliderLef__img--img {
@@ -434,6 +435,7 @@ iframe {
     width: 100%;
     height: 100%;
     z-index: 2;
+    object-fit: cover;
     }
     
     .sliderRig__img--img {
@@ -516,6 +518,7 @@ iframe {
     width: 100%;
     height: 100%;
     z-index: 2;
+    object-fit: cover;
     }
     
     .sliderRigsh__img--img {
