@@ -1907,7 +1907,7 @@ html {
         } 
 
     .carouselimg {
-        max-height: 250px;
+        height: 200px;
         } 
 
     .rowgalery {
@@ -1918,6 +1918,7 @@ html {
     .rowgaleryimg {
         width: 100%;
         max-height: 150px;
+        text-align: end;
         } 
     } 
 
@@ -1929,7 +1930,7 @@ html {
         } 
 
     .carouselimg {
-        max-height: 350px;
+        height: 320px;
         } 
 
     .rowgalery {
@@ -1951,7 +1952,7 @@ html {
         } 
 
     .carouselimg {
-        max-height: 450px;
+        height: 400px;
         } 
 
     .rowgalery {
