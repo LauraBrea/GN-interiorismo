@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="http://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
     <link rel="stylesheet" type="text/css" href="../css/media.css">
     <title>GN Interiorismo</title>
@@ -44,17 +48,78 @@
         </section>
     </header>
     <main>
-        <section class="sliderRigsh">
-            <article class="sliderRigsh__back"></article>
-            <div class="sliderRigsh__box">
-                <article class="sliderRigsh__txt">   
-                    <h3 class="sliderRigsh__txt sliderRigsh__txt--h3 mainH3">Interiorismo Comercial</h3>
-                    <h2 class="sliderRigsh__txt sliderRigsh__txt--h2 mainH2">PESCE RESTÓ</h2>
-                    <P class="sliderRigsh__txt sliderRigsh__txt--p mainParr">Ambientacion de restaurant en el Barrio de Palermo, combinando un estilo contemporáneo con tintes orientales y fabriles, donde los colores y las texturas juegan un rol fundamental.</P>
+        <section class="carouselbox">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active carouselimg">
+                    <img class="d-block w-100" src="https://www.ylighting.com/blog/wp-content/uploads/2016/04/LZF_lamps_hand_made_lighting_Masterchef3.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">PESCE RESTÓ</h2>
+                        <p class="carouseltxt mainParr">Ambientacion de restaurant en el Barrio de Palermo</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item carouselimg">
+                    <img class="d-block w-100" src="https://i.pinimg.com/originals/e1/8c/f2/e18cf2a5c6cbf3877535981bce69a018.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">KOï CAFÉ</h2>
+                        <p class="carouseltxt mainParr">Diseño interior de local en el Barrio de Recoleta</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item carouselimg">
+                    <img class="d-block w-100" src="https://design-milk.com/images/2020/03/Studium-Spectris-Innovation-Centre-1.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">KARVE COMPANY S.A.</h2>
+                        <p class="carouseltxt mainParr">Interiorismo de espacios de oficinas en Vicente Lopez</p>
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+        <section class="rowgalery">
+            <div class="row">
+                <article class="col-xs-6 col-sm-6 col-md-4 col-lg-4 align-self-center ">
+                    <h3 class="mainH3">Restaurantes & Cafeterías</h3>
+                    <p class="mainParr">Un buen restaurante ya no es solo un sitio donde “se come bien”. Hemos convertido el acto de comer fuera de casa en una experiencia multisensorial en la que el diseño es ya tan importante como la gastronomía. Desde el diseño del plato hasta el interiorismo en un restaurante. </p>
                 </article>
-                <article class="sliderRigsh__img">
-                    <img class="sliderRigsh__img sliderRigsh__img--img" src="https://www.ylighting.com/blog/wp-content/uploads/2016/04/LZF_lamps_hand_made_lighting_Masterchef2.jpg" alt="">  <!-- imagen nosotros -->
-                </article>   
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg"src="https://aws.admagazine.com/prod/designs/v1/assets/667x1000/17254.jpg" alt="">
+                <img class="w-100 rowgaleryimg" src="https://aws.admagazine.com/prod/designs/v1/assets/1000x667/17258.jpg" alt="">
+            <div class="row">
+            </div>
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg" src="https://2.bp.blogspot.com/-WQPY5AM5nic/VR6g9DPOaUI/AAAAAAAACcY/wIxS_ACeTLE/s1600/hexagone-bar-jaune-paris-16.jpg" alt="">
+                <img class="col-xs-6 col-sm-6 col-md-4 col-lg-4 rowgaleryimg" src="https://3.bp.blogspot.com/-AFJv3T_OF3I/VR6g8oXSgjI/AAAAAAAACcQ/F28Ebi7gGr0/s1600/decoration-restaurant-hexagone-paris-16-noir-gris-jaune.jpg" alt="">
+            </div>
+            <div class="row">
+                <article class="col-xs-6 col-sm-6 col-md-4 col-lg-4 align-self-center">
+                    <h3 class="mainH3">Espacios Comerciales</h3>
+                    <p class="mainParr">El diseño puede anular o ayudar a un negocio. Mucha gente todavía entiende el diseño como un mero ejercicio de embellecimiento, cuando no es así. El diseño tiene que estar en sintonía con los demás aspectos del negocio. </p>
+                </article>
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg" src="https://i.pinimg.com/originals/5b/b9/67/5bb967c46344b5144516f30fb1560fda.jpg" alt="">
+                <img class="w-100 rowgaleryimg" src="https://cdn2.artwhere.net/www.moustique.be/sites/default/files/zoom-lobby-04.jpg" alt="">
+            </div>
+            <div class="row">
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg" src="https://i.pinimg.com/originals/10/78/b8/1078b891faaeab5c8356f59dd9570e23.jpg" alt="">
+                <img class="col-xs-6 col-sm-6 col-md-4 col-lg-4 rowgaleryimg" src="https://design-milk.com/images/2020/03/Studium-Spectris-Innovation-Centre-4-810x751.jpg" alt="">
+            </div>
+            <div class="row">   
+                <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+                    <h3 class="mainH3">Oficinas & Espacios de Trabajo</h3>
+                    <p class="mainParr">En las oficinas pasamos muchas horas de nuestra vida, por lo que conseguir el espacio adecuado, ya sea con el equipo, el diseño o los materiales, puede contribuir en gran medida a reducir las molestias cotidianas en el trabajo. </p>
+                </article>
+                <img class="col-xs-12 col-sm-6 col-md-4 col-lg-4 rowgaleryimg" src="https://i.pinimg.com/originals/2c/f2/3c/2cf23cb2ce6d992829d5a8d324384190.jpg" alt="">
+                <img class="col-xs-12 col-sm-6 col-md-4 col-lg-4 rowgaleryimg" src="https://i.pinimg.com/originals/7b/90/6b/7b906bef7980887cdaf0a31b2b46fb3a.jpg" alt="">
             </div>
         </section>
     </main>    
@@ -98,5 +163,13 @@
             </article>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

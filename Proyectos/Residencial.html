@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="http://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
     <link rel="stylesheet" type="text/css" href="../css/media.css">
     <title>GN Interiorismo</title>
@@ -44,17 +48,77 @@
         </section>
     </header>
     <main>
-        <section class="sliderRigsh">
-            <article class="sliderRigsh__back"></article>
-            <div class="sliderRigsh__box">
-                <article class="sliderRigsh__txt">   
-                    <h3 class="sliderRigsh__txt sliderRigsh__txt--h3 mainH3">Interiorismo Residencial</h3>
-                    <h2 class="sliderRigsh__txt sliderRigsh__txt--h2 mainH2">AYRES PILAR</h2>
-                    <P class="sliderRigsh__txt sliderRigsh__txt--p mainParr">Obra residencial en County de Pilar. Ambientacion interior moderna y sobria, que se configura en varios espacios de usos diversos que se adaptan a las necesidades familiares diarias.</P>
+        <section class="carouselbox">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active carouselimg">
+                    <img class="d-block w-100" src="https://myinteriordesign.it/wp-content/uploads/2020/12/yellow-living-room-accents.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">ARGENTINO GOLF CLUB</h2>
+                        <p class="carouseltxt mainParr">Interiorismo de residencia en Tortuguitas</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item carouselimg">
+                    <img class="d-block w-100" src="https://cdn.decoist.com/wp-content/uploads/2014/06/Spacious-and-sophisticated-home-in-gray.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">PUNTA CHICA VILLAGE</h2>
+                        <p class="carouseltxt mainParr">Diseño interior de residencia en Victoria</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item carouselimg">
+                    <img class="d-block w-100" src="https://i.pinimg.com/originals/83/96/06/83960641091540c8388b3bba96fc8775.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="carouseltxt mainH2">COUNTRY AYRES PILAR</h2>
+                        <p class="carouseltxt mainParr">Ambientación residencial en County de Pilar</p>
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+        <section class="rowgalery">
+            <div class="row">
+                <article class="col-xs-6 col-sm-6 col-md-4 col-lg-4 align-self-center ">
+                    <h3 class="mainH3">Pisos y Departamentos</h3>
+                    <p class="mainParr">Encontrar el estilo perfecto para hacer que el espacio se vuelva cómodo y atractivo, no es tan difícil. Si bien diseñar el hogar es sin duda emocionante, el proceso también puede ser abrumador. Lograr el equilibrio adecuado entre forma y función tiene sus desafíos. </p>
                 </article>
-                <article class="sliderRigsh__img">
-                    <img class="sliderRigsh__img sliderRigsh__img--img" src="https://cdn.decoist.com/wp-content/uploads/2014/06/The-adjoining-dining-space-adds-to-the-overall-appeal-and-color-scheme-of-the-living-room.jpg" alt="">  <!-- imagen nosotros -->
-                </article>   
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg"src="https://thebestwoodfurniture.com/wp-content/uploads/2017/06/Galley-Grey-Kitchen-With-Yellow-Backsplash.jpg" alt="">
+                <img class="w-100 rowgaleryimg" src="https://www.modulnova.it/foto/living/5eec70d8a57c3202006191001282.jpg" alt="">
+            <div class="row">
+            </div>
+                <img class="col-xs-6 col-sm-6 col-md-6 col-lg-6 rowgaleryimg" src="http://cdn.home-designing.com/wp-content/uploads/2019/07/luxury-living-room-1.jpg" alt="">
+                <img class="col-xs-6 col-sm-6 col-md-6 col-lg-6 rowgaleryimg" src="https://papelpintadoparedeshome.files.wordpress.com/2021/02/lux.jpg" alt="">
+            </div>
+            <div class="row">
+                <article class="col-xs-6 col-sm-6 col-md-4 col-lg-4 align-self-center">
+                    <h3 class="mainH3">Residencias</h3>
+                    <p class="mainParr">Independientemente del estilo y elección personal, el panorama general y los pequeños detalles son igualmente importantes. Desde elegir los muebles adecuados hasta encontrar la paleta de colores perfecta , hay muchas decisiones para tomar. </p>
+                </article>
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg" src="https://myinteriordesign.it/wp-content/uploads/2020/12/yellow-living-room-accents.jpg" alt="">
+                <img class="w-100 rowgaleryimg" src="https://modulnovavlc.com/wp-content/uploads/2020/09/MODULNOVA-TWENTY-3.jpg" alt="">
+            </div>
+            <div class="row">
+                <img class="col-xs-6 col-sm-6 col-md-4 col-lg-4 rowgaleryimg" src="https://images.squarespace-cdn.com/content/v1/554a7c69e4b0625ed8339704/1556917426147-PEWOVEXTFLU6QGC91HE8/Home_Living_04.jpg?format=1000w" alt="">
+                <img class="col-xs-6 col-sm-6 col-md-8 col-lg-8 rowgaleryimg" src="https://i.pinimg.com/originals/83/96/06/83960641091540c8388b3bba96fc8775.jpg" alt="">
+            </div>
+            <div class="row">   
+                <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+                    <h3 class="mainH3">Estancias & Clubes de Campo</h3>
+                    <p class="mainParr">El contacto con la naturaleza es indispensable, todos los elementos que encontramos al aire libre que nos hacen sentir frescos, relajados y uno con la tierra. La mejor forma de incorporarlos es utilizar elementos que se encuentran en la naturaleza en la decoración interior. </p>
+                </article>
+                <img class="col-xs-12 col-sm-12 col-md-8 col-lg-8 rowgaleryimg" src="https://modulnovavlc.com/wp-content/uploads/2020/08/outdoor-modulnova-valencia-2.jpg" alt="">
             </div>
         </section>
     </main>    
@@ -98,5 +162,13 @@
             </article>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

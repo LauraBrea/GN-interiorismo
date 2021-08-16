@@ -1896,3 +1896,71 @@ html {
         top: 40%;
         }
 }
+
+/*--------- bootstrap ---------*/   
+
+@media (max-width: 576px) {
+
+    .carouselbox {
+        margin-top: 60px; 
+        margin-bottom: 60px;
+        } 
+
+    .carouselimg {
+        max-height: 250px;
+        } 
+
+    .rowgalery {
+        margin-top: 60px; 
+        margin-bottom: 60px;
+        }
+
+    .rowgaleryimg {
+        width: 100%;
+        max-height: 150px;
+        } 
+    } 
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .carouselbox {
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        } 
+
+    .carouselimg {
+        max-height: 350px;
+        } 
+
+    .rowgalery {
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        }
+
+    .rowgaleryimg {
+        width: 100%;
+        max-height: 250px;
+        }  
+} 
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .carouselbox {
+        margin-top: 100px; 
+        margin-bottom: 100px;
+        } 
+
+    .carouselimg {
+        max-height: 450px;
+        } 
+
+    .rowgalery {
+        margin-top: 100px; 
+        margin-bottom: 100px;
+        }
+
+    .rowgaleryimg {
+        width: 100%;
+        max-height: 350px;
+        }  
+}
