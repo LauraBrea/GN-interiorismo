@@ -5,10 +5,9 @@
 .sliderLef {
     width: 100%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     position: relative;
     background-color: transparent;
+    @include margin-size(120px, 120px);
     } 
 
 .sliderLef__back {
@@ -89,10 +88,9 @@
 .sliderRig {
     width: 100%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     position: relative;
     background-color: transparent;
+    @include margin-size(120px, 120px);
     } 
 
 .sliderRig__back {
@@ -172,10 +170,9 @@
 .sliderRigsh {
     width: 100%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     position: relative;
     background-color: transparent;
+    @include margin-size(120px, 120px);
     } 
 
 .sliderRigsh__back {
@@ -255,8 +252,6 @@
 .icons {
     width: 90%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     position: relative;
     left: 5%;
     right: 5%;
@@ -265,6 +260,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    @include margin-size(120px, 120px);
     }
 
 .icons__box {
@@ -302,9 +298,8 @@
 .gallery {
     width: 100%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     position: relative;
+    @include margin-size(120px, 120px);
     }
 
 .gallery__back {
@@ -452,8 +447,6 @@
     width: 90%;
     height: auto;
     position: relative;
-    margin-top: 120px; 
-    margin-bottom: 120px;
     margin-left: 5%;
     margin-right: 5%;
     grid-template-columns: 1fr 1fr;
@@ -462,6 +455,7 @@
     align-content: stretch;
     justify-content: stretch;
     gap: 20px;
+    @include margin-size(120px, 120px);
     }
 
 .doublePersSlider__box {
@@ -577,8 +571,7 @@
     width: 90%;
     height: auto;
     position: relative;
-    margin-top: 120px; 
-    margin-bottom: 120px;
+    @include margin-size(120px, 120px);
     margin-left: 5%;
     margin-right: 5%;
     grid-template-columns: 1fr 1fr;
@@ -748,8 +741,7 @@
     width: 80%;
     height: auto;
     position: relative;
-    margin-top: 120px; 
-    margin-bottom: 120px;
+    @include margin-size(120px, 120px);
     margin-left: 10%;
     margin-right: 10%;
     }

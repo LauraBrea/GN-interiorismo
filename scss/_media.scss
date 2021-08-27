@@ -1,3 +1,5 @@
+@import "variables";
+
 *  {margin: 0;
     padding:0;
     }
@@ -320,8 +322,7 @@ html {
 @media (max-width: 576px) {
     
     .sliderLef {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 
     .sliderLef__back {
@@ -383,8 +384,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .sliderLef {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 
     .sliderLef__back {
@@ -446,8 +446,7 @@ html {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .sliderLef {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 
     .sliderLef__back {
@@ -511,8 +510,7 @@ html {
 @media (max-width: 576px) {
     
     .sliderRig {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 
     .sliderRig__back {
@@ -574,8 +572,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .sliderRig {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 
     .sliderRig__back {
@@ -637,8 +634,7 @@ html {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .sliderRig {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 
     .sliderRig__back {
@@ -702,8 +698,7 @@ html {
 @media (max-width: 576px) {
     
     .sliderRigsh {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 
     .sliderRigsh__back {
@@ -760,8 +755,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .sliderRigsh {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 
     .sliderRigsh__back {
@@ -818,8 +812,7 @@ html {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .sliderRigsh {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 
     .sliderRigsh__back {
@@ -878,8 +871,7 @@ html {
 @media (max-width: 576px) {
 
     .doubleSlider {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr;
         gap: 60px;
@@ -997,8 +989,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .doubleSlider {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         margin-left: 5%;
         margin-right: 5%;
         grid-template-columns: 100%;
@@ -1122,8 +1113,7 @@ html {
 
     .doubleSlider {
         width: 90%;
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         margin-left: 5%;
         margin-right: 5%;
         grid-template-columns: 1fr 1fr;
@@ -1253,24 +1243,21 @@ html {
 @media (max-width: 576px) {
 
     .icons {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
 
     .icons {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
 
     .icons {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 }
 
@@ -1279,24 +1266,21 @@ html {
 @media (max-width: 576px) {
 
     .items {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
 
     .items {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
 
     .items {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 }
 
@@ -1305,8 +1289,7 @@ html {
 @media (max-width: 576px) {
 
     .gallery {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }
 
     .gallery__back {
@@ -1349,8 +1332,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .gallery {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }
 
     .gallery__back {
@@ -1393,8 +1375,7 @@ html {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .gallery {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }
 
     .gallery__back {
@@ -1437,8 +1418,7 @@ html {
 @media (max-width: 576px) {
 
     .doublePersSlider {
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         margin-left: 5%;
         margin-right: 5%;
         grid-template-columns: 100%;
@@ -1480,8 +1460,7 @@ html {
 @media (min-width: 576px) and (max-width: 768px) {
 
     .doublePersSlider {
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         gap: 60px;
         }
 
@@ -1536,8 +1515,7 @@ html {
 @media (min-width: 768px) and (max-width: 992px) {
 
     .doublePersSlider {
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         gap: 80px;
         }
 
@@ -1595,8 +1573,7 @@ html {
 
     .contact {
         width: 90%;
-        margin-top: 60px; 
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         margin-left: 5%;
         margin-right: 5%;
         }
@@ -1663,8 +1640,7 @@ html {
 
     .contact {
         width: 90%;
-        margin-top: 80px; 
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         margin-left: 5%;
         margin-right: 5%;
         }
@@ -1731,8 +1707,7 @@ html {
 
     .contact {
         width: 90%;
-        margin-top: 100px; 
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         margin-left: 5%;
         margin-right: 5%;
         }
@@ -1749,8 +1724,7 @@ html {
     .table { 
         font-size: 12px;
         line-height: 20px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        @include margin-size(60px, 60px);
         }  
 }
 
@@ -1758,15 +1732,13 @@ html {
     .table { 
         font-size: 12px;
         line-height: 20px;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        @include margin-size(80px, 80px);
         }  
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
     .table { 
-        margin-top: 100px;
-        margin-bottom: 100px;
+        @include margin-size(100px, 100px);
         }  
 }
 

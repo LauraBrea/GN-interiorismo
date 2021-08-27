@@ -1,3 +1,8 @@
 $color-yelow: #f1c82e;
-$color-grey: #ebebe7;
+$color-grey: #e4e4e4;
 $back-grey: #ebebe733;
+
+@mixin margin-size($margintop, $marginbottom) {
+    margin-top: $margintop;
+    margin-bottom: $marginbottom;
+    }
