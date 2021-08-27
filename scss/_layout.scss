@@ -1,0 +1,252 @@
+@import "variables";
+
+/*--------- header ---------*/
+
+.header {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin-bottom: 120px;
+    }    
+
+.header__background {
+    background-image: url(https://bridge154.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    } 
+
+.header__nav {
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    }
+
+.header__nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    }
+
+.header__nav ul li {
+    display: inline-block;
+    }
+
+.header__nav ul li a {
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 140px;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    }
+
+.header__nav li a:hover {
+    background-color: $back-grey;
+    color: $color-yelow;
+    transition: 1s;
+    }
+
+.header__nav li ul {
+    height: 25px;
+    width: 120px;
+    display: none;
+    position: absolute;
+    }       
+
+.header__nav li:hover > ul {
+    display:block;
+    }
+
+.header__nav li ul li {
+    position:relative;
+    }
+
+#header__indexnav {
+    visibility: hidden;
+    }
+
+.header__logo {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    }
+
+    .header__logo--img {
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        }
+
+.header__h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    }   
+
+/*--------- header pages ---------*/
+
+.header1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 120px;
+    }    
+
+.header1__background {
+    background-image: url(https://bridge154.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    } 
+
+.header1__h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    }    
+    
+/*--------- footer ---------*/
+    
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    position: relative;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/891/non_2x/gray-cement-texture-free-photo.JPG); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    opacity: 1;
+    }
+
+.footer__logo {
+    width: 120px;
+    height: 65px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    }   
+
+    .footer__logo--img {
+        width: 100%;
+        height: 100%;
+        }
+
+.footer__box {
+    width: 90%;
+    height: 45%;
+    top: 55%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    border: none;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    justify-items: start;
+    justify-content: start;
+    }
+
+.footer__txt {
+    width: auto;
+    height: auto;
+    }
+
+.footer__txt ul {
+    list-style: none;
+    text-decoration: none;
+    }
+
+.footer__txt ul li {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+
+.footer__link {
+    width: auto;
+    height: auto;
+    }
+
+.footer__link ul {
+    list-style: none;
+    text-decoration: none;
+    }
+
+.footer__link ul li {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+
+.footer__link ul li a {
+    width: auto;
+    height: auto;
+    }
+
+.footer__form {
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0%;
+    position: relative;
+    }
+
+    .footer__form input {
+        width: auto;
+        height: 20px;
+        border: none;
+        }
+
+    .footer__submit {
+        width: 60px;
+        height: 20px;
+        border: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+
+.footer__social {
+    display: inline;
+    top: 30%;
+    position: absolute;
+    }
+
+.footer__social ul {
+    list-style: none;
+    }
+
+.footer__social ul li {
+    display: inline-block;
+    color:white;
+    padding: 12px 11px; 
+    }
+    
+.footer__social ul li a:hover {
+    color: $color-yelow;
+    background: $back-grey; 
+    padding: 5px 5px; 
+    transition: 1s;
+    }       

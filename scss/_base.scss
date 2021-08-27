@@ -1,0 +1,152 @@
+@import "variables";
+
+/*--------- general ---------*/
+
+*  {margin: 0;
+    padding:0;
+    }
+
+html {
+    width: 100%;
+    }
+
+form {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+
+input {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    }
+
+select {
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    padding-left: 5px;
+    }    
+
+a:link {
+    text-decoration: none;
+    color: white;
+    }
+        
+a:visited {
+    color: white;
+    }    
+
+a:active {
+    color: $color-yelow;
+    } 
+
+.button {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    height: 56px;
+    border-color: $color-yelow;
+    background-color: $color-yelow;
+    border-width: 1px;
+    padding-left: 32px;
+    padding-right: 32px;
+    z-index: 3;
+    }
+
+.button:hover {
+    background-color: black;
+    border-color: black;
+    transition: 1s;
+    opacity: 0.6;
+    }
+
+iframe {
+    max-width: 100%;
+    height: 100%;
+    }
+
+.checkbtn {
+    color: white;
+    font-size: 2em;
+    line-height: 35px;
+    margin-right: 60px;
+    float: right;
+    display: none;
+    cursor: pointer;
+    }  
+
+#check {
+    display: none;
+    }
+
+/*--------- fuentes ---------*/
+
+.h1 {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    }
+
+.mainH2 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    }
+
+.mainH3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    }
+
+.mainH4 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    }
+
+.mainH5 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    }
+
+.mainParr {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    }
+
+.span {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    }

@@ -1,0 +1,1010 @@
+@import "variables";
+
+/*--------- slider left ---------*/
+
+.sliderLef {
+    width: 100%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    background-color: transparent;
+    } 
+
+.sliderLef__back {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    background-color: $color-grey;
+    }  
+
+.sliderLef__box {
+    display: grid;
+    width: 90%;
+    max-height: 480px;
+    top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    grid-template-columns: 60% 40%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    }
+
+.sliderLef__txt {
+    width: 95%;
+    height: 100%;
+    left: 5%;
+    position: relative;
+    }    
+
+    .sliderLef__txt--h3 {
+        height: 20px;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .sliderLef__txt--h2 {
+        height: 55px;
+        position: absolute;
+        top: 25%;
+        overflow: hidden;
+        } 
+
+    .sliderLef__txt--p {
+        height: 40%;
+        width: 90%;
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        overflow: hidden;
+        }
+
+    .sliderLef__txt--but {
+        height: 56px;
+        width: 150px;
+        position: absolute;
+        top: 80%;
+        background-color: $color-yelow;
+        } 
+
+.sliderLef__img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: cover;
+    }
+    
+    .sliderLef__img--img {
+        max-height: 480px;
+        height: 100%;
+        }
+
+/*--------- slider right ---------*/   
+
+.sliderRig {
+    width: 100%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    background-color: transparent;
+    } 
+
+.sliderRig__back {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    background-color: $color-grey;
+    }  
+
+.sliderRig__box {
+    display: grid;
+    width: 90%;
+    max-height: 480px;
+    top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    grid-template-columns: 40% 60%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    }
+
+.sliderRig__txt {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    position: relative;
+    }    
+
+    .sliderRig__txt--h3 {
+        height: 20px;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .sliderRig__txt--h2 {
+        height: 55px;
+        position: absolute;
+        top: 25%;
+        overflow: hidden;
+        } 
+
+    .sliderRig__txt--p {
+        height: 50%;
+        position: absolute;
+        width: 95%;
+        top: 40%;
+        overflow: hidden;
+        }
+
+    .sliderRig__txt--but {
+        height: 56px;
+        width: 150px;
+        position: absolute;
+        top: 80%;
+        background-color: $color-yelow;
+        } 
+
+.sliderRig__img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: cover;
+    }
+    
+    .sliderRig__img--img {
+        width: 100%;
+        max-height: 480px;
+        }
+
+/*--------- slider right short ---------*/   
+
+.sliderRigsh {
+    width: 100%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    background-color: transparent;
+    } 
+
+.sliderRigsh__back {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    background-color: $color-grey;
+    }  
+
+.sliderRigsh__box {
+    display: grid;
+    width: 90%;
+    max-height: 480px;
+    top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    grid-template-columns: 40% 60%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    }
+
+.sliderRigsh__txt {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    position: relative;
+    }    
+
+    .sliderRigsh__txt--h3 {
+        height: 20px;
+        position: absolute;
+        top: 20%;
+        } 
+
+    .sliderRigsh__txt--h2 {
+        height: 55px;
+        position: absolute;
+        top: 30%;
+        overflow: hidden;
+        } 
+
+    .sliderRigsh__txt--p {
+        height: 50%;
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        overflow: hidden;
+        }
+
+    .sliderRigsh__txt--but {
+        height: 56px;
+        width: 150px;
+        position: absolute;
+        top: 80%;
+        background-color: $color-yelow;
+        } 
+
+.sliderRigsh__img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: cover;
+    }
+    
+    .sliderRigsh__img--img {
+        width: 100%;
+        max-height: 480px;
+        }
+
+/*--------- iconos ---------*/
+
+.icons {
+    width: 90%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+.icons__box {
+    width: 220px;
+    height: 200px;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    }
+
+    .icons__box--img {
+        height: 160px;
+        top: 0px;
+        position: absolute;
+        filter: grayscale(0%);
+        } 
+
+    .icons__box--img:hover {
+        position: relative;
+        transform: scale(1.03);
+        transition: 1.5s;
+        filter: grayscale(100%);
+        opacity: 0.6;
+        } 
+
+    .icons__box--h4 {
+        height: 25px;
+        top: 175px;
+        position: absolute;
+        } 
+  
+/*--------- galeria 6sq ---------*/
+
+.gallery {
+    width: 100%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    }
+
+.gallery__back {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: $color-grey;
+    position: absolute;
+    visibility: hidden;
+    }
+
+.gallery__box {
+    width: 90%;
+    height: auto;
+    max-height: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    gap: 0;
+    }
+
+.gallery__txt {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    }    
+
+    .gallery__txt--h3 {
+        height: auto;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .gallery__txt--h2 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        z-index: 3;
+        } 
+
+    .gallery__txt--p {
+        height: 55%;
+        position: absolute;
+        width: 90%;
+        top: 43%;
+        overflow: hidden;
+        }
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+    }
+
+    .gallery__img--img {
+        width: 100%;
+        height: 100%;
+        }
+    
+.gallery__button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: $color-grey;
+    }
+
+    .gallery__button--p {
+        height: 40%;
+        position: absolute;
+        width: 85%;
+        top: 25%;
+        left: 8%;
+        overflow: hidden;
+        }
+
+    .gallery__button--but {
+        height: 56px;
+        width: 150px;
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        background-color: $color-yelow;
+        } 
+
+/*--------- items fotos ---------*/
+        
+.items {
+    width: 90%;
+    height: auto;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    position: relative;
+    background-color: transparent;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+.items__box {
+    width: 230px;
+    height: 450px;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    }
+
+    .items__box--img {
+        width: 230px;
+        height: 350px;
+        top: 0px;
+        position: absolute;
+        }
+
+    .items__box--h3 {
+        height: 25px;
+        top: 370px;
+        position: absolute;
+        }
+    
+    .items__box--p {
+        height: 50px;
+        top: 400px;
+        position: absolute;
+        }
+
+/*--------- pag nosotros ---------*/
+
+.doublePersSlider {
+    display: grid;
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    gap: 20px;
+    }
+
+.doublePersSlider__box {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+    } 
+
+.doublePersSliLef__back {
+    width: 65%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: $color-grey;
+    } 
+
+.doublePersSliLef__box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 85% 15%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    grid-template-areas: "img txt" "social txt";
+    } 
+
+.doublePersSliLef__img {
+    width: 100%;
+    height: 95%;
+    max-height: 400px;
+    max-width: 250px;
+    position: relative;
+    object-fit: cover;
+    justify-self: center;
+    grid-area: img;
+    }    
+    
+    .doublePersSliLef__img--img {
+        width: 100%;
+        height: 100%;
+        }  
+
+.doublePersSliLef__txt {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    left: 3%;
+    grid-area: txt;
+    } 
+
+    .doublePersSliLef__txt--h3 {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .doublePersSliLef__txt--h2 {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        line-height: 60px;
+        } 
+
+    .doublePersSliLef__txt--p {
+        height: 45%;
+        width: auto;
+        position: absolute;
+        top: 55%;
+        overflow: hidden;
+        } 
+
+.doublePersSliLef__social {
+    display: inline;
+    position: relative;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    justify-self: center;
+    align-self: center;
+    grid-area: social;
+    } 
+  
+.doublePersSliLef__social ul {
+    list-style: none;
+    }
+
+.doublePersSliLef__social ul li {
+    display: inline-block;
+    padding: 12px 11px; 
+    }
+
+.doublePersSliLef__social ul li a {
+    color: black;
+    }     
+
+.doublePersSliLef__social ul li a:hover {
+    color: $color-yelow;
+    transition: 1s;
+    }
+
+/*--------- pag interiorismo ---------*/
+
+.doubleSlider {
+    display: grid;
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    } 
+
+.doubleSlider__box {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    position: relative;
+    } 
+
+.doubleSliLef__back {
+    width: 65%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: $color-grey;
+    } 
+
+.doubleSliLef__box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    } 
+
+.doubleSliLef__img {
+    width: 100%;
+    height: 95%;
+    max-height: 450px;
+    max-width: 350px;
+    position: relative;
+    object-fit: cover;
+    }    
+    
+    .doubleSliLef__img--img {
+        width: 100%;
+        height: 100%;
+        }  
+
+.doubleSliLef__txt {
+    width: 90%;
+    height: 95%;
+    position: relative;
+    left: 3%;
+    overflow: hidden;
+    } 
+
+    .doubleSliLef__txt--h3 {
+        width: auto;
+        height: 20px;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .doubleSliLef__txt--p {
+        height: 70%;
+        width: auto;
+        position: absolute;
+        top: 30%;
+        overflow: hidden;
+        } 
+
+.doubleSliRig__back {
+    width: 65%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    background-color: $color-grey;
+    } 
+
+.doubleSliRig__box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    } 
+
+.doubleSliRig__img {
+    width: 100%;
+    height: 95%;
+    max-height: 450px;
+    max-width: 300px;
+    position: relative;
+    object-fit: cover;
+    }    
+    
+    .doubleSliRig__img--img {
+        width: 100%;
+        height: 100%;
+        }  
+
+.doubleSliRig__txt {
+    width: 90%;
+    height: 95%;
+    position: relative;
+    left: 5%;
+    } 
+
+    .doubleSliRig__txt--h3 {
+        width: auto;
+        height: 20px;
+        position: absolute;
+        top: 15%;
+        } 
+
+    .doubleSliRig__txt--p {
+        height: 70%;
+        width: auto;
+        position: absolute;
+        top: 30%;
+        overflow: hidden;
+        } 
+
+.table { 
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    }   
+    
+.table tr th { 
+    border: 1px;
+    border-style: solid;
+    border-color: $color-grey;
+    background-color:$color-grey;
+    padding: 3px;
+    text-align: left;
+    }   
+
+.table tr td { 
+    border: 1px;
+    border-style: solid;
+    border-color: $color-grey;
+    padding: 3px;
+    }   
+
+/* --------pag contacto-------- */         
+
+.contact {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin-top: 120px; 
+    margin-bottom: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+.contact__back {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 0%;
+    background-color: $color-grey;
+    }
+
+.contact__box {
+    width: 95%;
+    height: 90%;
+    top: 5%;
+    min-height: 700px;
+    position: relative;
+    display: grid;
+    grid-template-columns:70% 30%;
+    grid-template-rows: 50% 50%;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: stretch;
+    grid-template-areas: "txtbox form" "maps form";
+    }
+
+.contact__txtbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    grid-area: txtbox;
+    }
+
+.contact__maps {
+    width: 80%;
+    height: 95%;
+    position: absolute;
+    left: 0%;
+    grid-area: maps;
+    }    
+
+.contact__form {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    grid-area: form;
+    }    
+
+.contact__txt {
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 15%;
+    position: relative;
+    } 
+
+    .contact__txt--h3 {
+        top: 0px;
+        left: 5px;
+        position: absolute;
+        }
+
+    .contact__txt--h2 {
+        top: 40px;
+        position: absolute;
+        }
+    
+.contact__dire {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 5px;
+    }
+      
+    .contact__dire ul {
+        list-style: none;
+        text-decoration: none;
+        }
+    
+    .contact__dire ul li {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        height: 25px;
+        width: 250px;
+        }
+        
+.contact__social {
+    display: inline;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    }
+    
+    .contact__social ul {
+        list-style: none;
+        }
+    
+    .contact__social ul li {
+        display: inline-block;
+        color:black;
+        padding: 12px 11px; 
+        }
+        
+    .contact__social ul li a {
+        color: black;
+            }
+    
+    .contact__social ul li a:hover {
+        color: $color-yelow;
+        transition: 1s;
+        }   
+    
+.contact__list  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    } 
+    
+    .contact__list label {
+        color: black;
+        display: block;
+        }
+    
+    .contact__list input {
+        background-color: white;
+        border: none;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        }
+    
+.contact__p {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.contact__list1  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    display: inline;
+    } 
+    
+    .contact__list1 label {
+        color: black;
+        }
+    
+.contact__list2  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    } 
+    
+    .contact__list2 option {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        } 
+
+    .contact__list2 label {
+        width: 100%;
+        color: black;
+        display: inline;
+        }
+    
+    .contact__list2 select {
+        background-color: white;
+        border: none;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        }   
+    
+.contact__list3  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    } 
+    
+    .contact__list3 label {
+        width: 100%;
+        color: black;
+        display: block;
+        margin-bottom: 10px;
+        }
+    
+    .contact__list3 textarea {
+        background-color: white;
+        border: none;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 15px;
+        }   
+    
+.contact__list4  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 410px;
+    display: inline;
+    } 
+
+    .contact__list4 label {
+        color: black;
+        }
+    
+.contact__send  {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    display: inline;
+    }
+    
+.contact__button {
+    width: 90px;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    height: 35px;
+    border-color:$color-yelow;
+    background-color: $color-yelow;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+    }
+
+.contact__button:hover {
+    background-color: black;
+    border-color: black;
+    transition: 1s;
+    opacity: 0.6;
+    }
+    
+   
