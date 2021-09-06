@@ -24,14 +24,11 @@
     width: 90%;
     max-height: 480px;
     top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     border: none;
     grid-template-columns: 60% 40%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: center;
+    @include justify (stretch, center);
+    @include align (stretch, stretch);
     }
 
 .sliderLef__txt {
@@ -42,13 +39,13 @@
     }    
 
     .sliderLef__txt--h3 {
-        height: 20px;
+        height: 1.8rem;
         position: absolute;
         top: 15%;
         } 
 
     .sliderLef__txt--h2 {
-        height: 55px;
+        height: 2.9rem;
         position: absolute;
         top: 25%;
         overflow: hidden;
@@ -107,14 +104,11 @@
     width: 90%;
     max-height: 480px;
     top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     border: none;
     grid-template-columns: 40% 60%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: center;
+    @include justify (stretch, center);
+    @include align (stretch, stretch);
     }
 
 .sliderRig__txt {
@@ -125,13 +119,13 @@
     }    
 
     .sliderRig__txt--h3 {
-        height: 20px;
+        height: 1.8rem;
         position: absolute;
         top: 15%;
         } 
 
     .sliderRig__txt--h2 {
-        height: 55px;
+        height: 2.9rem;
         position: absolute;
         top: 25%;
         overflow: hidden;
@@ -189,14 +183,11 @@
     width: 90%;
     max-height: 480px;
     top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     border: none;
     grid-template-columns: 40% 60%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: center;
+    @include justify (stretch, center);
+    @include align (stretch, stretch);
     }
 
 .sliderRigsh__txt {
@@ -207,13 +198,13 @@
     }    
 
     .sliderRigsh__txt--h3 {
-        height: 20px;
+        height: 1.8rem;
         position: absolute;
         top: 20%;
         } 
 
     .sliderRigsh__txt--h2 {
-        height: 55px;
+        height: 2.9rem;
         position: absolute;
         top: 30%;
         overflow: hidden;
@@ -305,8 +296,7 @@
 .gallery__back {
     width: 90%;
     height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     background-color: $color-grey;
     position: absolute;
     visibility: hidden;
@@ -316,15 +306,12 @@
     width: 90%;
     height: auto;
     max-height: 800px;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     gap: 0;
     }
 
@@ -400,8 +387,7 @@
 .items {
     width: 90%;
     height: auto;
-    margin-top: 120px; 
-    margin-bottom: 120px;
+    @include margin-size (120px, 120px);
     position: relative;
     background-color: transparent;
     left: 5%;
@@ -429,7 +415,7 @@
         }
 
     .items__box--h3 {
-        height: 25px;
+        height: 1.6rem;
         top: 370px;
         position: absolute;
         }
@@ -447,15 +433,12 @@
     width: 90%;
     height: auto;
     position: relative;
-    margin-left: 5%;
-    margin-right: 5%;
-    grid-template-columns: 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
-    gap: 20px;
+    @include marginH-size (5%, 5%);
     @include margin-size(120px, 120px);
+    grid-template-columns: 1fr 1fr;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
+    gap: 20px;
     }
 
 .doublePersSlider__box {
@@ -481,10 +464,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 85% 15%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     grid-template-areas: "img txt" "social txt";
     } 
 
@@ -572,13 +553,10 @@
     height: auto;
     position: relative;
     @include margin-size(120px, 120px);
-    margin-left: 5%;
-    margin-right: 5%;
+    @include marginH-size (5%, 5%);
     grid-template-columns: 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     } 
 
 .doubleSlider__box {
@@ -603,10 +581,8 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     } 
 
 .doubleSliLef__img {
@@ -633,7 +609,7 @@
 
     .doubleSliLef__txt--h3 {
         width: auto;
-        height: 20px;
+        height: 1.8rem;
         position: absolute;
         top: 15%;
         } 
@@ -661,10 +637,8 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     } 
 
 .doubleSliRig__img {
@@ -690,7 +664,7 @@
 
     .doubleSliRig__txt--h3 {
         width: auto;
-        height: 20px;
+        height: 1.8rem;
         position: absolute;
         top: 15%;
         } 
@@ -715,8 +689,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    @include margin-size (120px, 120px);
     }   
     
 .table tr th { 
@@ -742,16 +715,14 @@
     height: auto;
     position: relative;
     @include margin-size(120px, 120px);
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginH-size (10%, 10%);
     }
 
 .contact__back {
     width: 70%;
     height: 100%;
     position: absolute;
-    margin-left: 30%;
-    margin-right: 0%;
+    @include marginH-size (30%, 0%);
     background-color: $color-grey;
     }
 
@@ -764,10 +735,8 @@
     display: grid;
     grid-template-columns:70% 30%;
     grid-template-rows: 50% 50%;
-    justify-items: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: stretch;
+    @include justify (stretch, stretch);
+    @include align (stretch, stretch);
     grid-template-areas: "txtbox form" "maps form";
     }
 
@@ -829,9 +798,9 @@
         }
     
     .contact__dire ul li {
-        font-size: 15px;
+        font-size: 0.9rem;
         font-weight: 400;
-        line-height: 15px;
+        line-height: 1rem;
         font-family: 'Montserrat', sans-serif;
         color: black;
         height: 25px;
@@ -979,7 +948,7 @@
     width: 90px;
     color: white;
     font-family:'Montserrat', sans-serif;
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: 400;
     letter-spacing: 1px;
     height: 35px;

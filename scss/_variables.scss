@@ -1,8 +1,23 @@
 $color-yelow: #f1c82e;
-$color-grey: #e4e4e4;
+$color-grey: #eeebeb;
 $back-grey: #ebebe733;
 
 @mixin margin-size($margintop, $marginbottom) {
     margin-top: $margintop;
     margin-bottom: $marginbottom;
     }
+
+@mixin marginH-size($marginlef, $marginrig) {
+    margin-left: $marginlef;
+    margin-right: $marginrig;
+    }
+
+@mixin justify ($justifyit, $justifycon) {
+    justify-items: $justifyit;
+    justify-content: $justifycon;
+    }
+
+@mixin align ($alignit, $aligncon) {
+    align-items: $alignit;
+    align-content: $aligncon;
+    }    
