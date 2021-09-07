@@ -823,7 +823,7 @@ html {
         } 
 
     .doubleSlider__box {
-        max-height: 900px;
+        max-height: 750px;
         } 
 
     .doubleSliLef__back {
@@ -837,7 +837,7 @@ html {
 
     .doubleSliLef__box {
         grid-template-columns: 100%;
-        grid-template-rows: 1.4fr 1fr;
+        grid-template-rows: 1.6fr 1fr;
         @include justify (center, center);
         } 
 
@@ -882,12 +882,11 @@ html {
         top: 0%;
         left: 0%;
         right: 0%;
-        background-color: rgb(230, 230, 230);
         } 
     
     .doubleSliRig__box {
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 1.4fr;
+        grid-template-rows: 1fr 1.6fr;
         @include justify (center, center);
         } 
             
@@ -950,7 +949,6 @@ html {
         top: 5%;
         left: 0%;
         right: 0%;
-        background-color: rgb(230, 230, 230);
         } 
 
     .doubleSliLef__box {
@@ -1002,7 +1000,6 @@ html {
         top: 0%;
         left: 0%;
         right: 0%;
-        background-color: rgb(230, 230, 230);
         } 
     
     .doubleSliRig__box {
@@ -1075,7 +1072,6 @@ html {
         left: 0%;
         right: 0%;
         top: 5%;
-        background-color: rgb(230, 230, 230);
         } 
 
     .doubleSliLef__box {
@@ -1127,7 +1123,6 @@ html {
         top: 0%;
         left: 0%;
         right: 0%;
-        background-color: rgb(230, 230, 230);
         } 
     
     .doubleSliRig__box {
@@ -1563,6 +1558,10 @@ html {
     .contact__social {
         position: absolute;
         top: 75%;
+        }
+
+    .contact__send  {
+        top: 520px;
         }
 }
 

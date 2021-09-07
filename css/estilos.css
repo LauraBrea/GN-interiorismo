@@ -173,7 +173,7 @@ iframe {
   position: relative; }
 
 .header__nav li a:hover {
-  background-color: #ebebe733;
+  background-color: #f0f0f03a;
   color: #f1c82e;
   transition: 1s; }
 
@@ -337,7 +337,7 @@ iframe {
 
 .footer__social ul li a:hover {
   color: #f1c82e;
-  background: #ebebe733;
+  background: #f0f0f03a;
   padding: 5px 5px;
   transition: 1s; }
 
@@ -356,7 +356,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 7%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .sliderLef__box {
   display: grid;
@@ -429,7 +429,7 @@ iframe {
   position: absolute;
   top: 5%;
   right: 7%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .sliderRig__box {
   display: grid;
@@ -501,7 +501,7 @@ iframe {
   position: absolute;
   top: 5%;
   right: 7%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .sliderRigsh__box {
   display: grid;
@@ -612,7 +612,7 @@ iframe {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #eeebeb;
+  background-color: #f0f0f0;
   position: absolute;
   visibility: hidden; }
 
@@ -671,7 +671,7 @@ iframe {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .gallery__button--p {
   height: 40%;
@@ -757,7 +757,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 10%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .doublePersSliLef__box {
   width: 100%;
@@ -765,7 +765,7 @@ iframe {
   position: relative;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 85% 15%;
+  grid-template-rows: 90% 10%;
   justify-items: stretch;
   justify-content: stretch;
   align-items: stretch;
@@ -775,7 +775,7 @@ iframe {
 .doublePersSliLef__img {
   width: 100%;
   height: 95%;
-  max-height: 400px;
+  max-height: 450px;
   max-width: 250px;
   position: relative;
   object-fit: cover;
@@ -865,7 +865,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 10%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .doubleSliLef__box {
   width: 100%;
@@ -916,7 +916,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 25%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .doubleSliRig__box {
   width: 100%;
@@ -978,15 +978,15 @@ iframe {
 .table tr th {
   border: 1px;
   border-style: solid;
-  border-color: #eeebeb;
-  background-color: #eeebeb;
+  border-color: #f0f0f0;
+  background-color: #f0f0f0;
   padding: 3px;
   text-align: left; }
 
 .table tr td {
   border: 1px;
   border-style: solid;
-  border-color: #eeebeb;
+  border-color: #f0f0f0;
   padding: 3px; }
 
 /* --------pag contacto-------- */
@@ -1005,7 +1005,7 @@ iframe {
   position: absolute;
   margin-left: 30%;
   margin-right: 0%;
-  background-color: #eeebeb; }
+  background-color: #f0f0f0; }
 
 .contact__box {
   width: 95%;
@@ -1815,7 +1815,7 @@ html {
     grid-template-rows: 1fr 1fr;
     gap: 60px; }
   .doubleSlider__box {
-    max-height: 900px; }
+    max-height: 750px; }
   .doubleSliLef__back {
     width: 100%;
     height: 95%;
@@ -1825,7 +1825,7 @@ html {
     right: 0%; }
   .doubleSliLef__box {
     grid-template-columns: 100%;
-    grid-template-rows: 1.4fr 1fr;
+    grid-template-rows: 1.6fr 1fr;
     justify-items: center;
     justify-content: center; }
   .doubleSliLef__img {
@@ -1858,11 +1858,10 @@ html {
     position: absolute;
     top: 0%;
     left: 0%;
-    right: 0%;
-    background-color: #e6e6e6; }
+    right: 0%; }
   .doubleSliRig__box {
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1.4fr;
+    grid-template-rows: 1fr 1.6fr;
     justify-items: center;
     justify-content: center; }
   .doubleSliRig__img {
@@ -1910,8 +1909,7 @@ html {
     position: absolute;
     top: 5%;
     left: 0%;
-    right: 0%;
-    background-color: #e6e6e6; }
+    right: 0%; }
   .doubleSliLef__box {
     grid-template-columns: 100%;
     grid-template-rows: 2fr 1fr;
@@ -1949,8 +1947,7 @@ html {
     position: absolute;
     top: 0%;
     left: 0%;
-    right: 0%;
-    background-color: #e6e6e6; }
+    right: 0%; }
   .doubleSliRig__box {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 2fr;
@@ -2007,8 +2004,7 @@ html {
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 5%;
-    background-color: #e6e6e6; }
+    top: 5%; }
   .doubleSliLef__box {
     grid-template-columns: 100%;
     grid-template-rows: 1.2fr 1fr;
@@ -2046,8 +2042,7 @@ html {
     position: absolute;
     top: 0%;
     left: 0%;
-    right: 0%;
-    background-color: #e6e6e6; }
+    right: 0%; }
   .doubleSliRig__box {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1.2fr;
@@ -2354,7 +2349,9 @@ html {
     line-height: 1.1rem; }
   .contact__social {
     position: absolute;
-    top: 75%; } }
+    top: 75%; }
+  .contact__send {
+    top: 520px; } }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .contact {

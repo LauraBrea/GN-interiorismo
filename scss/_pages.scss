@@ -463,7 +463,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 85% 15%;
+    grid-template-rows: 90% 10%;
     @include justify (stretch, stretch);
     @include align (stretch, stretch);
     grid-template-areas: "img txt" "social txt";
@@ -472,7 +472,7 @@
 .doublePersSliLef__img {
     width: 100%;
     height: 95%;
-    max-height: 400px;
+    max-height: 450px;
     max-width: 250px;
     position: relative;
     object-fit: cover;
