@@ -30,7 +30,7 @@
 .header__nav ul {
     list-style: none;
     float: right;
-    margin-right: 30px;
+    margin-right: 80px;
     }
 
 .header__nav ul li {
@@ -38,7 +38,7 @@
     }
 
 .header__nav ul li a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
@@ -47,12 +47,11 @@
     color: white;
     height: 30px;
     width: 140px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 20px 5px 20px;
     position: relative;
     }
 
 .header__nav li a:hover {
-    background-color: $back-grey;
     color: $color-yelow;
     transition: 1s;
     }
@@ -70,10 +69,6 @@
 
 .header__nav li ul li {
     position:relative;
-    }
-
-#header__indexnav {
-    visibility: hidden;
     }
 
 .header__logo {

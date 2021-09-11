@@ -154,13 +154,13 @@ iframe {
 .header__nav ul {
   list-style: none;
   float: right;
-  margin-right: 30px; }
+  margin-right: 80px; }
 
 .header__nav ul li {
   display: inline-block; }
 
 .header__nav ul li a {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.5px;
@@ -169,11 +169,10 @@ iframe {
   color: white;
   height: 30px;
   width: 140px;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 20px 5px 20px;
   position: relative; }
 
 .header__nav li a:hover {
-  background-color: #f0f0f03a;
   color: #f1c82e;
   transition: 1s; }
 
@@ -188,9 +187,6 @@ iframe {
 
 .header__nav li ul li {
   position: relative; }
-
-#header__indexnav {
-  visibility: hidden; }
 
 .header__logo {
   width: 140px;
@@ -1253,6 +1249,140 @@ iframe {
   object-fit: cover;
   padding: 3px; }
 
+.header__burger input + label {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  height: 20px;
+  width: 20px;
+  z-index: 5; }
+  .header__burger input + label span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    margin-top: -1px;
+    left: 0;
+    display: block;
+    background: white;
+    transition: .5s; }
+  .header__burger input + label span:first-child {
+    top: 3px; }
+  .header__burger input + label span:last-child {
+    top: 16px; }
+
+.header__burger label:hover {
+  cursor: pointer; }
+
+.header__burger input:checked + label span {
+  opacity: 0;
+  top: 50%; }
+
+.header__burger input:checked + label span:first-child {
+  opacity: 1;
+  transform: rotate(405deg);
+  background-color: #f1c82e; }
+
+.header__burger input:checked + label span:last-child {
+  opacity: 1;
+  transform: rotate(-405deg);
+  background-color: #f1c82e; }
+
+.header__burger input ~ nav {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/891/non_2x/gray-cement-texture-free-photo.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  transition: .5s;
+  transition-delay: .5s;
+  overflow: hidden;
+  z-index: 4; }
+  .header__burger input ~ nav > ul {
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%; }
+    .header__burger input ~ nav > ul > li {
+      opacity: 0;
+      transition: .5s;
+      transition-delay: 0s; }
+      .header__burger input ~ nav > ul > li > a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 500px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.5px;
+        line-height: 35px;
+        display: block;
+        padding: 10px;
+        border-top: 1px solid white; }
+        .header__burger input ~ nav > ul > li > a:hover {
+          color: #f1c82e;
+          transition: 1.5s; }
+  .header__burger input ~ nav article {
+    position: absolute;
+    display: inline;
+    text-align: center;
+    top: 90%;
+    left: 10%;
+    right: 10%;
+    z-index: 4; }
+    .header__burger input ~ nav article > ul {
+      list-style: none; }
+      .header__burger input ~ nav article > ul > li {
+        display: inline;
+        color: white;
+        padding: 0px 20px; }
+        .header__burger input ~ nav article > ul > li > a:hover {
+          color: #f1c82e;
+          transition: 1.5s; }
+  .header__burger input ~ nav img {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    z-index: 4; }
+
+.header__burger input ~ nav li ul {
+  list-style: none;
+  padding-bottom: 15px; }
+  .header__burger input ~ nav li ul > li {
+    position: relative; }
+    .header__burger input ~ nav li ul > li > a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 1.5px;
+      line-height: 30px;
+      display: block; }
+      .header__burger input ~ nav li ul > li > a:hover {
+        color: #f1c82e;
+        transition: 1.5s; }
+
+.header__burger input:checked ~ nav {
+  height: 100%;
+  transition-delay: 0s; }
+  .header__burger input:checked ~ nav > ul > li {
+    opacity: 1;
+    transition-delay: .5s; }
+
+.header__burger #burger {
+  display: none; }
+
+.header__burger #linoborder {
+  border-top: none; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -1312,101 +1442,7 @@ html {
     height: 260px;
     margin-bottom: 60px; }
   .header__nav {
-    height: 30px;
-    top: 10px;
-    position: relative; }
-  .header__nav ul {
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    height: 200px;
-    top: 50px;
-    background-color: #e6e6e6;
-    text-align: left;
-    transition: all 0.5s;
-    z-index: 4; }
-  .header__nav ul li {
-    display: block;
-    padding-top: 12px; }
-  .header__nav ul li a {
-    color: black;
-    font-size: 0.75rem;
-    line-height: 1.6rem;
-    width: 110px;
-    text-align: left; }
-  .header__nav ul li ul {
-    background: none; }
-  .header__nav ul li ul li {
-    top: 65px;
-    left: 120px; }
-  .header__nav ul li ul li a {
-    height: 15px;
-    line-height: 1rem;
-    text-align: left; }
-  #header__indexnav {
-    visibility: visible; }
-  #check:checked ~ ul {
-    left: 100%; }
-  .checkbtn {
-    line-height: 2.2rem;
-    margin-right: 20px;
-    display: block; }
-  .header__logo {
-    width: 70px;
-    height: 35px;
-    top: 5px;
-    left: 5px; }
-  .header1 {
-    width: 100%;
-    height: 260px;
-    margin-bottom: 60px; } }
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .header {
-    width: 100%;
-    height: 340px;
-    margin-bottom: 80px; }
-  .header__nav {
-    height: 30px;
-    top: 20px;
-    position: relative; }
-  .header__nav ul {
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    height: 260px;
-    top: 60px;
-    background-color: #e6e6e6;
-    text-align: left;
-    transition: all 0.5s;
-    z-index: 4; }
-  .header__nav ul li {
-    display: block;
-    padding-top: 13px; }
-  .header__nav ul li a {
-    color: black;
-    font-size: 0.9rem;
-    line-height: 2.2rem;
-    width: 110px;
-    padding: 5px 25px 5px 25px;
-    text-align: left; }
-  .header__nav ul li ul {
-    background: none; }
-  .header__nav ul li ul li {
-    top: 93px;
-    left: 140px; }
-  .header__nav ul li ul li a {
-    height: 15px;
-    line-height: 15px;
-    text-align: left; }
-  #header__indexnav {
-    visibility: visible; }
-  #check:checked ~ ul {
-    left: 100%; }
-  .checkbtn {
-    line-height: 35px;
-    margin-right: 20px;
-    display: block; }
+    visibility: hidden; }
   .header__logo {
     width: 90px;
     height: 45px;
@@ -1414,8 +1450,35 @@ html {
     left: 10px; }
   .header1 {
     width: 100%;
+    height: 260px;
+    margin-bottom: 60px; }
+  .header__burger input + label {
+    position: fixed;
+    top: 20px;
+    right: 20px; }
+  .header__burger input ~ nav article > ul > li {
+    padding: 0px 10px; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header {
+    width: 100%;
     height: 340px;
-    margin-bottom: 80px; } }
+    margin-bottom: 80px; }
+  .header__nav {
+    visibility: hidden; }
+  .header__logo {
+    width: 120px;
+    height: 60px;
+    top: 10px;
+    left: 10px; }
+  .header1 {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 80px; }
+  .header__burger input + label {
+    position: fixed;
+    top: 30px;
+    right: 30px; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .header {
@@ -1423,12 +1486,7 @@ html {
     height: 600px;
     margin-bottom: 100px; }
   .header__nav ul li a {
-    font-size: 0.9rem; }
-  .header__logo {
-    width: 120px;
-    height: 60px;
-    top: 10px;
-    left: 10px; }
+    padding: 5px 15px 5px 15px; }
   .header1 {
     width: 100%;
     height: 300px;

@@ -1,0 +1,167 @@
+
+.header__burger {
+
+    input + label {
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        height: 20px;
+        width: 20px; 
+        z-index: 5;
+        span {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            top: 50%;
+            margin-top: -1px;
+            left: 0;
+            display: block;
+            background: white;
+            transition: .5s;
+        }
+        span:first-child {
+            top: 3px; 
+        }
+        span:last-child {
+            top: 16px; 
+        }      
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    input:checked + label { 
+        span {
+            opacity: 0;
+            top: 50%;
+        }
+        span:first-child {
+            opacity: 1;
+            transform: rotate(405deg);
+            background-color: $color-yelow;
+        }
+        span:last-child {
+            opacity: 1;
+            transform: rotate(-405deg);
+            background-color: $color-yelow;
+        }
+    }
+
+    input ~ nav {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/891/non_2x/gray-cement-texture-free-photo.JPG); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        transition: .5s;
+        transition-delay: .5s;
+        overflow: hidden;
+        z-index: 4;
+        > ul {
+            text-align: center;
+            list-style: none;
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            right: 10%;
+            > li {
+                opacity: 0;
+                transition: .5s;
+                transition-delay: 0s;
+                > a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 0.9rem;
+                    font-weight: 500px;
+                    font-family: 'Montserrat', sans-serif;
+                    letter-spacing: 1.5px;
+                    line-height: 35px;
+                    display: block;
+                    padding: 10px;
+                    border-top: 1px solid white;
+                    &:hover {
+                        color: $color-yelow;
+                        transition: 1.5s;
+                    }
+                }
+            }
+        }
+        article {
+            position: absolute;
+            display: inline;
+            text-align: center;
+            top: 90%;
+            left: 10%;
+            right: 10%;
+            z-index: 4;
+            > ul {
+                list-style: none;
+                > li {
+                    display: inline;
+                    color:white;
+                    padding: 0px 20px; 
+                    > a:hover {
+                        color: $color-yelow;
+                        transition: 1.5s;
+                    } 
+                }
+            }
+        }
+        img {
+            width: 140px;
+            height: 70px;
+            position: absolute;
+            top: 35px;
+            left: 35px;
+            z-index: 4;
+            }
+    }
+
+    input ~ nav li ul {
+        list-style: none;
+        padding-bottom: 15px;
+        > li {
+            position:relative;
+            > a { 
+                text-decoration: none;
+                color: white;
+                font-size: 0.9rem;
+                font-weight: 500px;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 1.5px;
+                line-height: 30px;
+                display: block;
+                &:hover {
+                    color: $color-yelow;
+                    transition: 1.5s;
+                }
+            }
+        }
+    }
+
+    input:checked ~ nav { 
+        height: 100%;
+        transition-delay: 0s;
+        > ul {
+            > li {
+                opacity: 1;
+                transition-delay: .5s;
+            }
+        }
+    } 
+
+    #burger {
+        display: none;
+    }
+
+    #linoborder {
+        border-top: none;
+    }  
+ 
+}
+
