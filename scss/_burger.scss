@@ -107,11 +107,11 @@
                     padding: 0px 12px; 
                     > a {
                         color: white;
-                        & a:hover {
+                        &:hover {
                             color: $color-yelow;
                             transition: 1.5s;
                         }
-                    } 
+                    }
                 }
             }
         }

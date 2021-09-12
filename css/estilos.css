@@ -1345,7 +1345,7 @@ iframe {
         padding: 0px 12px; }
         .header__burger input ~ nav article > ul > li > a {
           color: white; }
-          .header__burger input ~ nav article > ul > li > a a:hover {
+          .header__burger input ~ nav article > ul > li > a:hover {
             color: #f1c82e;
             transition: 1.5s; }
   .header__burger input ~ nav img {
