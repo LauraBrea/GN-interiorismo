@@ -3,8 +3,8 @@
 
     input + label {
         position: fixed;
-        top: 40px;
-        right: 40px;
+        top: 15px;
+        right: 15px;
         height: 20px;
         width: 20px; 
         z-index: 5;
@@ -16,7 +16,7 @@
             margin-top: -1px;
             left: 0;
             display: block;
-            background: white;
+            background: #545454;
             transition: .5s;
         }
         span:first-child {
@@ -39,12 +39,12 @@
         span:first-child {
             opacity: 1;
             transform: rotate(405deg);
-            background-color: $color-yelow;
+            background-color: white;
         }
         span:last-child {
             opacity: 1;
             transform: rotate(-405deg);
-            background-color: $color-yelow;
+            background-color: white;
         }
     }
 
@@ -52,7 +52,6 @@
         background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/891/non_2x/gray-cement-texture-free-photo.JPG); 
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center top;
         position: fixed;
         top: 0;
         left: 0;
@@ -66,7 +65,7 @@
             text-align: center;
             list-style: none;
             position: absolute;
-            top: 25%;
+            top: 15%;
             left: 10%;
             right: 10%;
             > li {
@@ -75,15 +74,15 @@
                 transition-delay: 0s;
                 > a {
                     text-decoration: none;
+                    align-self: center;
                     color: white;
                     font-size: 0.9rem;
-                    font-weight: 500px;
                     font-family: 'Montserrat', sans-serif;
                     letter-spacing: 1.5px;
-                    line-height: 35px;
+                    line-height: 10vh;
+                    height: 10vh;
                     display: block;
-                    padding: 10px;
-                    border-top: 1px solid white;
+                    border-top: 0.01rem solid white;
                     &:hover {
                         color: $color-yelow;
                         transition: 1.5s;
@@ -95,46 +94,50 @@
             position: absolute;
             display: inline;
             text-align: center;
-            top: 90%;
-            left: 10%;
-            right: 10%;
+            bottom: 15px;
+            width: 100%;
             z-index: 4;
+            overflow: hidden;
             > ul {
                 list-style: none;
+                height: 25px;
+                margin:0px;
                 > li {
                     display: inline;
-                    color:white;
-                    padding: 0px 20px; 
-                    > a:hover {
-                        color: $color-yelow;
-                        transition: 1.5s;
+                    padding: 0px 12px; 
+                    > a {
+                        color: white;
+                        & a:hover {
+                            color: $color-yelow;
+                            transition: 1.5s;
+                        }
                     } 
                 }
             }
         }
         img {
-            width: 140px;
-            height: 70px;
+            width: 80px;
+            height: 40px;
             position: absolute;
-            top: 35px;
-            left: 35px;
+            top: 15px;
+            left: 15px;
             z-index: 4;
             }
     }
 
     input ~ nav li ul {
         list-style: none;
-        padding-bottom: 15px;
+        padding-bottom: 3vh;
         > li {
             position:relative;
             > a { 
                 text-decoration: none;
                 color: white;
                 font-size: 0.9rem;
-                font-weight: 500px;
                 font-family: 'Montserrat', sans-serif;
                 letter-spacing: 1.5px;
-                line-height: 30px;
+                line-height: 6vh;
+                height: 6vh;
                 display: block;
                 &:hover {
                     color: $color-yelow;
@@ -160,8 +163,20 @@
     }
 
     #linoborder {
+        position: relative;
         border-top: none;
-    }  
- 
+    }
+
+    #burgerback {
+        position: fixed;
+        top: 9px;
+        right: 9px;
+        height: 32px;
+        width: 32px; 
+        z-index: 5;
+        background-color: $color-yelow;
+        border-radius: 16px;
+        }
+    
 }
 

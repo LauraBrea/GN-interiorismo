@@ -8,21 +8,6 @@ html {
     width: 100%;
     }
 
-    /* Extra small devices (portrait phones, less than 576px)
-    // No media query for `xs` since this is the default in Bootstrap
-    
-    // Small devices (landscape phones, 576px and up)
-    @media (min-width: 576px) { ... }
-    
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) { ... }
-    
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { ... }
-    
-    // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) { ... } */
-
 @media (max-width: 576px) {
 
     .mainParr {
@@ -84,7 +69,7 @@ html {
 
     .header {
         width: 100%;
-        height: 260px;
+        height: 310px;
         margin-bottom: 60px;
         }    
 
@@ -94,10 +79,14 @@ html {
 
     .header__logo {
         width: 90px;
-        height: 45px;
-        top: 10px;
-        left: 10px;
+        height: 45px;  
+        top: 8px;
+        left: 8px;
         }
+
+    .header__h1 {
+        top: 45%;
+        }  
 
     .header1 {
         width: 100%;
@@ -105,14 +94,12 @@ html {
         margin-bottom: 60px;
         } 
 
-    .header__burger input + label {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        }
-
+    .header1__h1 {
+        top: 45%;
+        }  
+  
     .header__burger input ~ nav article > ul > li {
-        padding: 0px 10px; 
+        padding: 0px 5px; 
         }
 }
 
@@ -129,11 +116,15 @@ html {
         }
 
     .header__logo {
-        width: 120px;
-        height: 60px;
+        width: 110px;
+        height: 55px;  
         top: 10px;
         left: 10px;
         }
+
+    .header__h1 {
+        top: 45%;
+        }  
 
     .header1 {
         width: 100%;
@@ -141,12 +132,10 @@ html {
         margin-bottom: 80px;
         } 
 
-    .header__burger input + label {
-        position: fixed;
-        top: 30px;
-        right: 30px;
-        }
-}
+    .header1__h1 {
+        top: 45%;
+        }  
+    }
 
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -160,10 +149,39 @@ html {
         padding: 5px 15px 5px 15px;
     }
 
+    .header__logo {
+        width: 120px;
+        height: 60px;
+        }
+
     .header1 {
         width: 100%;
         height: 300px;
         margin-bottom: 100px;
+        }
+}
+
+@media (min-width: 768px) {
+
+    .header__burger input + label {
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        }
+
+    .header__burger #burgerback {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        }
+
+    .header__burger input ~ nav {
+        width: 250px;
+        background-image: none;
+        background-color:#545454;
         }
 }
 
@@ -1578,7 +1596,7 @@ html {
 
     .footer__logo {
         width: 100px;
-        height: 54px;
+        height: 50px;
         position: absolute;
         top: 10%;
         left: 5%;
@@ -1619,7 +1637,7 @@ html {
 
     .footer__logo {
         width: 100px;
-        height: 54px;
+        height: 50px;
         position: absolute;
         top: 10%;
         left: 8%;
@@ -1660,7 +1678,7 @@ html {
 
     .footer__logo {
         width: 100px;
-        height: 54px;
+        height: 50px;
         position: absolute;
         top: 15%;
         left: 8%;

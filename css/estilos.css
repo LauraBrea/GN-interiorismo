@@ -149,19 +149,19 @@ iframe {
   height: 75px;
   width: 100%;
   position: absolute;
-  top: 40px; }
+  top: 25px; }
 
 .header__nav ul {
   list-style: none;
   float: right;
-  margin-right: 80px; }
+  margin-right: 70px; }
 
 .header__nav ul li {
   display: inline-block; }
 
 .header__nav ul li a {
-  font-size: 0.9rem;
-  font-weight: 500px;
+  font-size: 0.95rem;
+  font-weight: 400px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.85rem;
@@ -243,7 +243,7 @@ iframe {
 
 .footer__logo {
   width: 120px;
-  height: 65px;
+  height: 60px;
   position: absolute;
   top: 15%;
   left: 4%; }
@@ -352,7 +352,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 7%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .sliderLef__box {
   display: grid;
@@ -425,7 +425,7 @@ iframe {
   position: absolute;
   top: 5%;
   right: 7%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .sliderRig__box {
   display: grid;
@@ -497,7 +497,7 @@ iframe {
   position: absolute;
   top: 5%;
   right: 7%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .sliderRigsh__box {
   display: grid;
@@ -608,7 +608,7 @@ iframe {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
   position: absolute;
   visibility: hidden; }
 
@@ -667,7 +667,7 @@ iframe {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .gallery__button--p {
   height: 40%;
@@ -753,7 +753,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 10%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .doublePersSliLef__box {
   width: 100%;
@@ -861,7 +861,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 10%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .doubleSliLef__box {
   width: 100%;
@@ -912,7 +912,7 @@ iframe {
   position: absolute;
   top: 5%;
   left: 25%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .doubleSliRig__box {
   width: 100%;
@@ -974,15 +974,15 @@ iframe {
 .table tr th {
   border: 1px;
   border-style: solid;
-  border-color: #f0f0f0;
-  background-color: #f0f0f0;
+  border-color: #f2f2f2;
+  background-color: #f2f2f2;
   padding: 3px;
   text-align: left; }
 
 .table tr td {
   border: 1px;
   border-style: solid;
-  border-color: #f0f0f0;
+  border-color: #f2f2f2;
   padding: 3px; }
 
 /* --------pag contacto-------- */
@@ -1001,7 +1001,7 @@ iframe {
   position: absolute;
   margin-left: 30%;
   margin-right: 0%;
-  background-color: #f0f0f0; }
+  background-color: #f2f2f2; }
 
 .contact__box {
   width: 95%;
@@ -1221,11 +1221,13 @@ iframe {
   height: auto;
   margin-top: 120px;
   margin-bottom: 120px;
-  position: relative; }
+  position: relative;
+  z-index: 2; }
 
 .carouselimg {
   width: 100%;
-  height: 600px; }
+  height: 600px;
+  z-index: 1; }
 
 .carouselimg__img {
   width: 100%;
@@ -1251,8 +1253,8 @@ iframe {
 
 .header__burger input + label {
   position: fixed;
-  top: 40px;
-  right: 40px;
+  top: 15px;
+  right: 15px;
   height: 20px;
   width: 20px;
   z-index: 5; }
@@ -1264,7 +1266,7 @@ iframe {
     margin-top: -1px;
     left: 0;
     display: block;
-    background: white;
+    background: #545454;
     transition: .5s; }
   .header__burger input + label span:first-child {
     top: 3px; }
@@ -1281,18 +1283,17 @@ iframe {
 .header__burger input:checked + label span:first-child {
   opacity: 1;
   transform: rotate(405deg);
-  background-color: #f1c82e; }
+  background-color: white; }
 
 .header__burger input:checked + label span:last-child {
   opacity: 1;
   transform: rotate(-405deg);
-  background-color: #f1c82e; }
+  background-color: white; }
 
 .header__burger input ~ nav {
   background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/891/non_2x/gray-cement-texture-free-photo.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
   position: fixed;
   top: 0;
   left: 0;
@@ -1306,7 +1307,7 @@ iframe {
     text-align: center;
     list-style: none;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 10%;
     right: 10%; }
     .header__burger input ~ nav > ul > li {
@@ -1315,15 +1316,15 @@ iframe {
       transition-delay: 0s; }
       .header__burger input ~ nav > ul > li > a {
         text-decoration: none;
+        align-self: center;
         color: white;
         font-size: 0.9rem;
-        font-weight: 500px;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5px;
-        line-height: 35px;
+        line-height: 10vh;
+        height: 10vh;
         display: block;
-        padding: 10px;
-        border-top: 1px solid white; }
+        border-top: 0.01rem solid white; }
         .header__burger input ~ nav > ul > li > a:hover {
           color: #f1c82e;
           transition: 1.5s; }
@@ -1331,40 +1332,43 @@ iframe {
     position: absolute;
     display: inline;
     text-align: center;
-    top: 90%;
-    left: 10%;
-    right: 10%;
-    z-index: 4; }
+    bottom: 15px;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden; }
     .header__burger input ~ nav article > ul {
-      list-style: none; }
+      list-style: none;
+      height: 25px;
+      margin: 0px; }
       .header__burger input ~ nav article > ul > li {
         display: inline;
-        color: white;
-        padding: 0px 20px; }
-        .header__burger input ~ nav article > ul > li > a:hover {
-          color: #f1c82e;
-          transition: 1.5s; }
+        padding: 0px 12px; }
+        .header__burger input ~ nav article > ul > li > a {
+          color: white; }
+          .header__burger input ~ nav article > ul > li > a a:hover {
+            color: #f1c82e;
+            transition: 1.5s; }
   .header__burger input ~ nav img {
-    width: 140px;
-    height: 70px;
+    width: 80px;
+    height: 40px;
     position: absolute;
-    top: 35px;
-    left: 35px;
+    top: 15px;
+    left: 15px;
     z-index: 4; }
 
 .header__burger input ~ nav li ul {
   list-style: none;
-  padding-bottom: 15px; }
+  padding-bottom: 3vh; }
   .header__burger input ~ nav li ul > li {
     position: relative; }
     .header__burger input ~ nav li ul > li > a {
       text-decoration: none;
       color: white;
       font-size: 0.9rem;
-      font-weight: 500px;
       font-family: 'Montserrat', sans-serif;
       letter-spacing: 1.5px;
-      line-height: 30px;
+      line-height: 6vh;
+      height: 6vh;
       display: block; }
       .header__burger input ~ nav li ul > li > a:hover {
         color: #f1c82e;
@@ -1381,7 +1385,18 @@ iframe {
   display: none; }
 
 .header__burger #linoborder {
+  position: relative;
   border-top: none; }
+
+.header__burger #burgerback {
+  position: fixed;
+  top: 9px;
+  right: 9px;
+  height: 32px;
+  width: 32px;
+  z-index: 5;
+  background-color: #f1c82e;
+  border-radius: 16px; }
 
 * {
   margin: 0;
@@ -1390,20 +1405,6 @@ iframe {
 html {
   width: 100%; }
 
-/* Extra small devices (portrait phones, less than 576px)
-    // No media query for `xs` since this is the default in Bootstrap
-    
-    // Small devices (landscape phones, 576px and up)
-    @media (min-width: 576px) { ... }
-    
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) { ... }
-    
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { ... }
-    
-    // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) { ... } */
 @media (max-width: 576px) {
   .mainParr {
     font-size: 0.75rem;
@@ -1439,25 +1440,25 @@ html {
 @media (max-width: 576px) {
   .header {
     width: 100%;
-    height: 260px;
+    height: 310px;
     margin-bottom: 60px; }
   .header__nav {
     visibility: hidden; }
   .header__logo {
     width: 90px;
     height: 45px;
-    top: 10px;
-    left: 10px; }
+    top: 8px;
+    left: 8px; }
+  .header__h1 {
+    top: 45%; }
   .header1 {
     width: 100%;
     height: 260px;
     margin-bottom: 60px; }
-  .header__burger input + label {
-    position: fixed;
-    top: 20px;
-    right: 20px; }
+  .header1__h1 {
+    top: 45%; }
   .header__burger input ~ nav article > ul > li {
-    padding: 0px 10px; } }
+    padding: 0px 5px; } }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .header {
@@ -1467,18 +1468,18 @@ html {
   .header__nav {
     visibility: hidden; }
   .header__logo {
-    width: 120px;
-    height: 60px;
+    width: 110px;
+    height: 55px;
     top: 10px;
     left: 10px; }
+  .header__h1 {
+    top: 45%; }
   .header1 {
     width: 100%;
     height: 340px;
     margin-bottom: 80px; }
-  .header__burger input + label {
-    position: fixed;
-    top: 30px;
-    right: 30px; } }
+  .header1__h1 {
+    top: 45%; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .header {
@@ -1487,10 +1488,30 @@ html {
     margin-bottom: 100px; }
   .header__nav ul li a {
     padding: 5px 15px 5px 15px; }
+  .header__logo {
+    width: 120px;
+    height: 60px; }
   .header1 {
     width: 100%;
     height: 300px;
     margin-bottom: 100px; } }
+
+@media (min-width: 768px) {
+  .header__burger input + label {
+    position: fixed;
+    top: 25px;
+    right: 25px; }
+  .header__burger #burgerback {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px; }
+  .header__burger input ~ nav {
+    width: 250px;
+    background-image: none;
+    background-color: #545454; } }
 
 /* ------- slider left ----------*/
 @media (max-width: 576px) {
@@ -2499,7 +2520,7 @@ html {
     background-position: center top; }
   .footer__logo {
     width: 100px;
-    height: 54px;
+    height: 50px;
     position: absolute;
     top: 10%;
     left: 5%; }
@@ -2528,7 +2549,7 @@ html {
     background-position: center top; }
   .footer__logo {
     width: 100px;
-    height: 54px;
+    height: 50px;
     position: absolute;
     top: 10%;
     left: 8%; }
@@ -2557,7 +2578,7 @@ html {
     background-position: center top; }
   .footer__logo {
     width: 100px;
-    height: 54px;
+    height: 50px;
     position: absolute;
     top: 15%;
     left: 8%; }

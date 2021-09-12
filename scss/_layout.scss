@@ -24,13 +24,13 @@
     height: 75px;
     width: 100%;
     position: absolute;
-    top: 40px;
+    top: 25px;
     }
 
 .header__nav ul {
     list-style: none;
     float: right;
-    margin-right: 80px;
+    margin-right: 70px;
     }
 
 .header__nav ul li {
@@ -38,8 +38,8 @@
     }
 
 .header__nav ul li a {
-    font-size: 0.9rem;
-    font-weight: 500px;
+    font-size: 0.95rem;
+    font-weight: 400px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     line-height: 1.85rem;
@@ -135,7 +135,7 @@
 
 .footer__logo {
     width: 120px;
-    height: 65px;
+    height: 60px;
     position: absolute;
     top: 15%;
     left: 4%;
